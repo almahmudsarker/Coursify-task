@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './card';
 import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <Card />
           </div>
         </div>
+        <Footer />
       </>
     );
 };
