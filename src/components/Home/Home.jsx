@@ -2,6 +2,8 @@ import React from 'react';
 import Card from './card';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
+import Ad1 from './Ad1';
+import Ad2 from './Ad2';
 
 const Home = () => {
     return (
@@ -21,6 +23,8 @@ const Home = () => {
             <Card />
           </div>
         </div>
+        <Ad1 />
+        <Ad2 />
         <Footer />
       </>
     );
