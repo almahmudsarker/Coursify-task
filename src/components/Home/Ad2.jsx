@@ -2,8 +2,13 @@ import React from 'react';
 
 const Ad2 = () => {
     return (
-      <div className='text-center'>
-        <div className="text-center stats shadow bg-transparent">
+      <div className="text-center">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-duration="1000"
+          className="text-center stats shadow bg-transparent"
+        >
           <div className="stat">
             <div className="stat-figure text-white">
               <svg
