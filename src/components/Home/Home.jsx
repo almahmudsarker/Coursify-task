@@ -1,9 +1,11 @@
 import React from 'react';
 import Card from './card';
+import Navbar from '../Navbar/Navbar';
 
 const Home = () => {
     return (
       <>
+      <Navbar />
         <div>
           <h1 className="text-3xl font-bold text-center py-10">
             Welcome to our Recruitment Portal
