@@ -21,12 +21,16 @@ const Card = () => {
   return (
     <>
       {jobOpenings.map((job) => (
-        <div key={job.id} className="card w-96 bg-white shadow-xl mx-auto my-16">
+        <div
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          key={job.id}
+          className="card w-96 bg-white shadow-xl mx-auto my-16"
+        >
           <figure>
-            <img
-              src={job.image}
-              alt="Shoes"
-            />
+            <img src={job.image} alt="Shoes" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
