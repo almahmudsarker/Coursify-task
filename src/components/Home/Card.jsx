@@ -9,7 +9,7 @@ const Card = () => {
   useEffect(() => {
     // Fetch job openings from the API
     axios
-      .get("http://localhost:5000/api/jobOpenings")
+      .get("https://coursify-gql7.onrender.com/api/jobOpenings")
       .then((response) => {
         setJobOpenings(response.data);
       })
